@@ -50,6 +50,21 @@ así que esta web no incluye ningún enlace de Instagram/Facebook como si
 fuera el perfil oficial del servicio de peluquería, para no generar
 confusión entre los dos negocios.
 
+Se ha revisado a fondo ese Instagram (biografía, historias destacadas y las
+3 publicaciones visibles sin iniciar sesión) para comprobar si ofrecían
+también servicios de peluquería que añadir a la web. **No hay ningún
+contenido de corte, color o peinado**: todo son tratamientos de estética
+facial/corporal (higiene facial, peeling químico, láser LED, lifting de
+pestañas, diseño de cejas, aparatología, hyaluronic pen, depilación láser
+—con una oferta de temporada de 125 €/175 € vista el 17/11/2025, ya
+caducada, que no se ha incluido—, dermapen, masajes, nails). La lista de
+servicios que aparece en la página "El salón" (sección "También en el
+edificio") combina ese Instagram con lo que se lee literalmente en la foto
+del escaparate (`public/images/escaparate-pereda.jpg`) y con el apartado
+"Detalles" de su Facebook. Se presenta claramente separada de los
+servicios de peluquería, con enlace a su Instagram para el listado
+completo y actualizado.
+
 ## 4. Fotografías reales
 
 Google Maps muestra 16 fotos en el local de Pereda y 9 en el de Juan de

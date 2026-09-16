@@ -46,8 +46,50 @@ export default function ElSalonPage() {
               </a>
               , centrada en tratamientos faciales y corporales. Es un negocio
               relacionado, pero distinto del servicio de peluquería que
-              recoge esta web.
+              recoge esta web: sus servicios no aparecen en la sección de
+              Servicios de esta página para no mezclarlos con los de
+              peluquería.
             </p>
+          </div>
+
+          <div className="card mt-8 max-w-2xl p-6 sm:p-8">
+            <h2 className="text-lg font-semibold">
+              También en el edificio: Estética Vicente Ortega
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed text-foreground-soft">
+              Según su escaparate y su perfil de Instagram, ofrecen tratamientos
+              de estética facial y corporal, sin relación con los servicios de
+              peluquería de esta web:
+            </p>
+            <ul className="mt-4 flex flex-wrap gap-2">
+              {[
+                "Higiene facial",
+                "Peeling químico",
+                "Depilación láser",
+                "Radiofrecuencia",
+                "Cavitación",
+                "Presoterapia",
+                "Masajes",
+                "Manicura y pedicura",
+                "Diseño de cejas y pestañas",
+                "Rayos UVA",
+              ].map((item) => (
+                <li
+                  key={item}
+                  className="rounded-full bg-orange-tint px-3 py-1.5 text-xs font-medium text-orange-dark"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <a
+              href="https://www.instagram.com/esteticavicenteortega/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring mt-5 inline-flex items-center gap-2 text-sm font-semibold text-orange-dark hover:underline"
+            >
+              Ver su Instagram @esteticavicenteortega →
+            </a>
           </div>
         </div>
       </section>
