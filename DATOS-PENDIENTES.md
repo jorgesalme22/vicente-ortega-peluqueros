@@ -54,13 +54,35 @@ confusión entre los dos negocios.
 
 Google Maps muestra 16 fotos en el local de Pereda y 9 en el de Juan de
 Austria (fachada, interior, profesionales trabajando), pero **Google no
-concede licencia de reutilización en sitios de terceros**, y no existe un
-Instagram propio de la peluquería del que tomar fotos con más contexto de
-uso. Por eso no se ha incrustado ninguna fotografía descargada de Maps o de
-redes sociales. El Hero, la sección de color y la galería
-(`src/components/Gallery.tsx`, `src/components/Hero.tsx`,
-`src/components/FeaturedService.tsx`) están listos para recibir fotografías
-reales en cuanto el negocio las facilite (ver instrucciones en el README).
+concede licencia expresa de reutilización en sitios de terceros** para las
+fotos que suben los propios negocios o sus clientes.
+
+A petición explícita del cliente de este proyecto (TFG/portfolio, no un
+encargo del negocio real), se han descargado e incrustado 4 fotografías
+reales tomadas directamente de las fichas públicas de Google Maps de los
+dos salones, guardadas en `public/images/`:
+
+| Archivo | Qué muestra | Ficha de origen |
+|---|---|---|
+| `fachada-pereda.jpg` | Fachada real con el rótulo "Vicente Ortega" en naranja (Hero + Galería) | Google Maps, ficha "VICENTE ORTEGA PELUQUEROS" |
+| `escaparate-pereda.jpg` | Escaparate con el listado de servicios (Galería) | Google Maps, ficha "VICENTE ORTEGA PELUQUEROS" |
+| `fachada-juan-de-austria.jpg` | Fachada real con el rótulo "Peluqueros Vicente Ortega" + "Centro de Estética" (Galería) | Google Maps, ficha "Peluqueros Vicente Ortega" |
+| `recogido-real.jpg` | Recogido/peinado real hecho en uno de los salones (Galería) | Google Maps, ficha "Peluqueros Vicente Ortega" |
+
+Estas fotografías confirman visualmente que **el naranja y el blanco/crema
+son, en efecto, los colores corporativos reales del rótulo del negocio**
+(de ahí el cambio de paleta pedido).
+
+**Importante:** ninguna de estas fotos tiene una licencia de reutilización
+verificada por escrito por parte del negocio. Se han usado porque el
+titular de este proyecto lo pidió expresamente sabiendo que es un
+ejercicio académico/de portfolio y no la web oficial encargada por
+"Vicente Ortega Peluqueros". **Antes de presentar o promocionar este sitio
+como la web real del negocio, hay que pedir autorización explícita al
+titular para usar estas fotografías** (o sustituirlas por material que el
+propio negocio facilite). El resto de huecos de la galería (Corte, Color y
+balayage, Interior del salón, Equipo) siguen siendo placeholders porque no
+se encontraron más fotos reutilizables identificables con claridad.
 
 ## 5. Precios de los servicios
 

@@ -18,10 +18,10 @@ export default function GaleriaPage() {
             El salón, por dentro
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-foreground-soft">
-            Google Maps recoge fotografías reales del salón, pero esa
-            plataforma no permite reutilizarlas en webs de terceros. Por eso
-            esta galería son huecos editoriales, listos para recibir las
-            fotografías que facilite el propio negocio.
+            Las fotografías de las fachadas, el escaparate y el recogido
+            proceden de las fichas públicas de Google Maps de los dos
+            salones. El resto son huecos editoriales, listos para recibir
+            más fotografías que facilite el propio negocio.
           </p>
         </div>
       </section>

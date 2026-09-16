@@ -16,12 +16,16 @@ detalles que faltan por confirmar con el negocio —incluida la relación
 exacta entre los dos locales— están listados en
 [`DATOS-PENDIENTES.md`](./DATOS-PENDIENTES.md).
 
-**Nota sobre las fotografías:** no se ha incrustado ninguna fotografía real
-descargada de Google Maps o de redes sociales, porque esas plataformas no
-conceden licencia de reutilización libre en sitios de terceros y no existe
-un Instagram propio del servicio de peluquería. El Hero, la sección de color
-y la galería están diseñados con espacios ("placeholders") editoriales
-listos para recibir las fotos reales que facilite el negocio — ver
+**Nota sobre las fotografías:** el Hero y 4 de los 8 huecos de la galería
+usan fotografías reales descargadas de las fichas públicas de Google Maps
+de los dos salones (fachadas, escaparate y un recogido real). Se incluyeron
+a petición expresa del cliente de este proyecto, que es un ejercicio
+académico/de portfolio y no un encargo del negocio real, así que **no
+tienen licencia de reutilización confirmada por escrito** — ver el detalle
+completo y la recomendación de pedir autorización antes de cualquier uso
+comercial en [`DATOS-PENDIENTES.md`](./DATOS-PENDIENTES.md). El resto de
+huecos de la galería y de la sección de color siguen siendo placeholders
+editoriales, listos para recibir más fotos que facilite el negocio — ver
 instrucciones más abajo.
 
 ## Stack técnico

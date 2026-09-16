@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { business, primaryLocation, telHref } from "@/lib/business";
 import { PhoneIcon, ArrowRightIcon, StarIcon, MapPinIcon } from "./icons";
@@ -57,21 +58,19 @@ export default function Hero() {
 
       <div className="reveal mt-14" style={{ animationDelay: "200ms" }}>
         <div className="container-x">
-          <div className="relative overflow-hidden rounded-[1.75rem] border border-line bg-orange-dark">
-            <div
-              className="aspect-[16/7] w-full opacity-95"
-              style={{
-                backgroundImage:
-                  "radial-gradient(circle at 12% 20%, rgba(255,255,255,0.18), transparent 40%), radial-gradient(circle at 85% 75%, rgba(255,255,255,0.14), transparent 45%), linear-gradient(115deg, var(--orange-dark) 0%, var(--orange) 100%), repeating-linear-gradient(115deg, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.06) 1px, transparent 1px, transparent 34px)",
-              }}
+          <div className="relative aspect-[16/7] w-full overflow-hidden rounded-[1.75rem] border border-line bg-orange-dark">
+            <Image
+              src="/images/fachada-pereda.jpg"
+              alt="Fachada del salón de Vicente Ortega Peluqueros en Calle José María Pereda, Alcalá de Henares"
+              fill
+              priority
+              sizes="(min-width: 1024px) 1120px, 100vw"
+              className="object-cover"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 px-6 text-center">
-              <p className="font-serif text-xl font-semibold text-white sm:text-2xl">
-                Espacio reservado para fotografía real del salón
-              </p>
-              <p className="max-w-md text-sm text-white/80">
-                Este panel está listo para recibir fotografías del equipo, el
-                local y los trabajos en cuanto el negocio las facilite.
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent px-6 py-4 sm:px-8 sm:py-5">
+              <p className="text-xs text-white/85 sm:text-sm">
+                Fachada real del salón, fotografía pública de su ficha de
+                Google Maps.
               </p>
             </div>
           </div>
