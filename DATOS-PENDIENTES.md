@@ -103,14 +103,18 @@ de las reseñas literales en `/opiniones`.
 
 ## 7. WhatsApp y reserva online
 
-Ninguna fuente principal (Google Maps, Facebook) confirma un número de
-WhatsApp para la peluquería. Un agregador de terceros (sedinfo.es) menciona
-un número de WhatsApp para "Estética Vicente Ortega", pero no está
-confirmado como canal del servicio de peluquería, así que no se ha incluido
-ningún botón de WhatsApp. Tampoco existe reserva de cita online en ninguna
-plataforma consultada (Fresha muestra el negocio pero aclara que no está
-afiliado a su sistema de reservas). El único canal de contacto verificado es
-el teléfono.
+Ninguna fuente pública principal (Google Maps, Facebook) confirma un número
+de WhatsApp para la peluquería. El número que aparece ahora en la web
+(**655 84 13 06**) procede originalmente de un agregador de terceros
+(sedinfo.es), que lo asociaba a "Estética Vicente Ortega", no
+específicamente a la peluquería — pero el titular de este proyecto lo ha
+confirmado directamente como el WhatsApp a usar, así que se ha añadido al
+Header/CTA final/Contacto/footer/barra móvil. Conviene, de todos modos,
+confirmarlo directamente con el negocio antes de un lanzamiento real, por si
+ese número es solo de la parte de estética y no de peluquería. Tampoco
+existe reserva de cita online en ninguna plataforma consultada (Fresha
+muestra el negocio pero aclara que no está afiliado a su sistema de
+reservas).
 
 ## 8. Aviso legal, política de privacidad y cookies
 

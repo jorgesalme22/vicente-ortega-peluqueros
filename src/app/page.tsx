@@ -7,8 +7,8 @@ import Locations from "@/components/Locations";
 import Reveal from "@/components/Reveal";
 import { services } from "@/components/Services";
 import { reviews, Stars } from "@/components/Reviews";
-import { business, primaryLocation, telHref } from "@/lib/business";
-import { PhoneIcon, ArrowRightIcon } from "@/components/icons";
+import { business, primaryLocation, telHref, whatsappHref } from "@/lib/business";
+import { PhoneIcon, WhatsAppIcon, ArrowRightIcon } from "@/components/icons";
 
 export default function Home() {
   return (
@@ -188,13 +188,25 @@ export default function Home() {
                 ¿Pedimos tu cita?
               </h2>
               <p className="mx-auto mt-3 max-w-md text-white/80">
-                Llama al salón que te quede más cerca y te dan hora con la
-                mayor brevedad posible.
+                Llama o escribe por WhatsApp al salón que te quede más cerca
+                y te dan hora con la mayor brevedad posible.
               </p>
               <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
                 <a href={telHref(primaryLocation.phoneIntl)} className="btn btn-white focus-ring">
                   <PhoneIcon className="size-4.5" />
                   Llamar: {primaryLocation.phoneDisplay}
+                </a>
+                <a
+                  href={whatsappHref(
+                    business.whatsapp.phoneIntl,
+                    "Hola, quería pedir información/cita",
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-on-dark focus-ring"
+                >
+                  <WhatsAppIcon className="size-4.5" />
+                  WhatsApp
                 </a>
                 <Link href="/contacto" className="btn btn-on-dark focus-ring">
                   Ver todos los datos de contacto

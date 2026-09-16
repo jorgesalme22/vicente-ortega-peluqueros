@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { business, primaryLocation, telHref } from "@/lib/business";
-import { MenuIcon, CloseIcon, PhoneIcon, ScissorsIcon } from "./icons";
+import { business, primaryLocation, telHref, whatsappHref } from "@/lib/business";
+import { MenuIcon, CloseIcon, PhoneIcon, WhatsAppIcon, ScissorsIcon } from "./icons";
 
 const links = [
   { href: "/servicios", label: "Servicios" },
@@ -43,6 +43,18 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
+          <a
+            href={whatsappHref(
+              business.whatsapp.phoneIntl,
+              "Hola, quería pedir información/cita",
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary focus-ring"
+          >
+            <WhatsAppIcon className="size-4" />
+            WhatsApp
+          </a>
           <a
             href={telHref(primaryLocation.phoneIntl)}
             className="btn btn-primary focus-ring"
@@ -87,6 +99,18 @@ export default function Header() {
           >
             <PhoneIcon className="size-4" />
             Llamar: {primaryLocation.phoneDisplay}
+          </a>
+          <a
+            href={whatsappHref(
+              business.whatsapp.phoneIntl,
+              "Hola, quería pedir información/cita",
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary focus-ring mt-2 w-full"
+          >
+            <WhatsAppIcon className="size-4" />
+            WhatsApp
           </a>
         </nav>
       </div>

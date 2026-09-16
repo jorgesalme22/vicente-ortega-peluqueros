@@ -185,6 +185,23 @@ export function BrushIcon({ className }: IconProps) {
   );
 }
 
+export function WhatsAppIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
+      <path
+        d="M6.5 17.5 4.5 20l2.6-.7A8 8 0 1 0 5 12a7.9 7.9 0 0 0 1.5 5.5z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9 10.3c.4 1.9 2 3.5 3.9 3.9.6.1 1-.4.9-1l-.2-1-1.4-.4-.9.7a4.3 4.3 0 0 1-2-2l.7-.9-.4-1.4-1-.2c-.6-.1-1.1.3-1 .9.1.6.2 1 .4 1.4z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
 export function ImagePlaceholderIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">

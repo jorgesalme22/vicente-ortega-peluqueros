@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { services } from "@/components/Services";
-import { primaryLocation, telHref } from "@/lib/business";
-import { PhoneIcon } from "@/components/icons";
+import { business, primaryLocation, telHref, whatsappHref } from "@/lib/business";
+import { PhoneIcon, WhatsAppIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Servicios",
@@ -66,6 +66,18 @@ export default function ServiciosPage() {
               <a href={telHref(primaryLocation.phoneIntl)} className="btn btn-white focus-ring">
                 <PhoneIcon className="size-4.5" />
                 Llamar: {primaryLocation.phoneDisplay}
+              </a>
+              <a
+                href={whatsappHref(
+                  business.whatsapp.phoneIntl,
+                  "Hola, quería pedir información/cita",
+                )}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-on-dark focus-ring"
+              >
+                <WhatsAppIcon className="size-4.5" />
+                WhatsApp
               </a>
               <Link href="/contacto" className="btn btn-on-dark focus-ring">
                 Ver los dos salones

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { business, locations, telHref, fullAddress } from "@/lib/business";
-import { PhoneIcon, MapPinIcon, ScissorsIcon } from "./icons";
+import { business, locations, telHref, whatsappHref, fullAddress } from "@/lib/business";
+import { PhoneIcon, WhatsAppIcon, MapPinIcon, ScissorsIcon } from "./icons";
 
 export default function Footer() {
   return (
@@ -15,6 +15,18 @@ export default function Footer() {
             Dos salones en Alcalá de Henares. {business.legalName}, de alta desde{" "}
             {business.registeredSince}.
           </p>
+          <a
+            href={whatsappHref(
+              business.whatsapp.phoneIntl,
+              "Hola, quería pedir información/cita",
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="focus-ring mt-4 flex items-center gap-2 rounded-md text-sm text-foreground hover:text-orange-dark"
+          >
+            <WhatsAppIcon className="size-4 shrink-0 text-orange-dark/70" />
+            {business.whatsapp.phoneDisplay}
+          </a>
           <p className="mt-6 text-xs text-foreground-soft/80">
             Aviso: este sitio se ha construido a partir de información pública
             verificada. Consulta{" "}

@@ -18,6 +18,12 @@ export const business = {
     count: 263 + 178,
     source: "Google",
   },
+  // Confirmado directamente por el titular del negocio (no procede de una
+  // ficha pública primaria — ver DATOS-PENDIENTES.md).
+  whatsapp: {
+    phoneDisplay: "655 84 13 06",
+    phoneIntl: "+34655841306",
+  },
 } as const;
 
 export type Location = {
