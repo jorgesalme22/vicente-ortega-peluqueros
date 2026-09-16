@@ -4,6 +4,8 @@ Sitio web oficial (propuesta) para **Vicente Ortega Peluqueros**, con dos
 salones en Alcalá de Henares (Madrid): Calle José María Pereda, Local 7, y
 Avenida Juan de Austria, 28.
 
+🔗 **Producción:** https://vicente-ortega-peluqueros.vercel.app
+
 ## Sobre este proyecto
 
 Todo el contenido (direcciones, teléfonos, horarios, valoración, reseñas y
@@ -145,6 +147,11 @@ git push -u origin main
 ```
 
 ## Despliegue en Vercel
+
+Este proyecto ya está conectado a Vercel y se despliega automáticamente en
+cada `git push` a `main` (ver la URL de producción al principio de este
+documento). Los pasos siguientes son para el caso de tener que volver a
+conectarlo desde cero (por ejemplo, en otra cuenta):
 
 1. Entra en [vercel.com](https://vercel.com) e inicia sesión con tu cuenta
    de GitHub.
