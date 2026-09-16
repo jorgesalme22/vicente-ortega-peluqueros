@@ -40,7 +40,7 @@ export default function ElSalonPage() {
                 href="https://www.instagram.com/esteticavicenteortega/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-copper-dark hover:underline"
+                className="font-medium text-orange-dark hover:underline"
               >
                 Estética Vicente Ortega
               </a>

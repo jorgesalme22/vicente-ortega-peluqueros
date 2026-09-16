@@ -5,7 +5,7 @@ export const reviews = reviewData;
 
 export function Stars() {
   return (
-    <div className="flex items-center gap-0.5 text-copper-dark">
+    <div className="flex items-center gap-0.5 text-orange-dark">
       {Array.from({ length: 5 }).map((_, i) => (
         <StarIcon key={i} className="size-4" />
       ))}

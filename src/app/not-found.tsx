@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <main id="contenido" className="flex flex-1 items-center justify-center py-24">
       <div className="container-x max-w-md text-center">
-        <p className="font-serif text-6xl font-semibold text-copper-dark">404</p>
+        <p className="font-serif text-6xl font-semibold text-orange-dark">404</p>
         <h1 className="mt-4 text-2xl font-semibold">Esta página no existe</h1>
         <p className="mt-3 text-foreground-soft">
           Puede que el enlace esté roto o la página se haya movido. Prueba a

@@ -15,7 +15,7 @@ export default async function Image() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px",
-          background: "linear-gradient(160deg, #3a2c1e 0%, #7f4520 55%, #16130f 100%)",
+          background: "linear-gradient(160deg, #e8611f 0%, #c6501a 55%, #8f3609 100%)",
           fontFamily: "sans-serif",
         }}
       >
@@ -34,7 +34,7 @@ export default async function Image() {
           >
             ✂️
           </div>
-          <div style={{ fontSize: 30, color: "#f7f3ee", fontWeight: 700 }}>
+          <div style={{ fontSize: 30, color: "#ffffff", fontWeight: 700 }}>
             {business.name}
           </div>
         </div>
@@ -43,7 +43,7 @@ export default async function Image() {
             style={{
               fontSize: 56,
               fontWeight: 700,
-              color: "#f7f3ee",
+              color: "#ffffff",
               lineHeight: 1.1,
               maxWidth: 950,
             }}

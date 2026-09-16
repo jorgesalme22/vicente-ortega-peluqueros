@@ -29,9 +29,9 @@ export default function FeaturedService() {
           </div>
 
           <div className="order-1 lg:order-2">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.75rem] border border-line bg-gradient-to-br from-copper-tint via-[#f7f3ee] to-surface-strong">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.75rem] border border-line bg-gradient-to-br from-orange-tint via-[#ffffff] to-surface-strong">
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 px-8 text-center">
-                <DropIcon className="size-9 text-copper-dark" />
+                <DropIcon className="size-9 text-orange-dark" />
                 <p className="font-serif text-lg font-semibold text-ink">
                   Fotografía de color pendiente
                 </p>

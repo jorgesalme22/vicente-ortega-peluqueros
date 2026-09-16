@@ -34,7 +34,7 @@ export default function WhyVicenteOrtega() {
     <div className="grid gap-6 sm:grid-cols-2">
       {reasons.map((r) => (
         <div key={r.title} className="flex gap-4">
-          <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white text-copper-dark shadow-sm ring-1 ring-line">
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white text-orange-dark shadow-sm ring-1 ring-line">
             <r.icon className="size-5" />
           </span>
           <div>

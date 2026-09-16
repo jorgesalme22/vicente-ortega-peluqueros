@@ -33,7 +33,7 @@ export default function ServiciosPage() {
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (
               <div key={s.slug} className="card flex flex-col p-6">
-                <span className="flex size-12 items-center justify-center rounded-xl bg-copper-tint text-copper-dark">
+                <span className="flex size-12 items-center justify-center rounded-xl bg-orange-tint text-orange-dark">
                   <s.icon className="size-6" />
                 </span>
                 <h2 className="mt-4 text-lg font-semibold">{s.name}</h2>
@@ -42,7 +42,7 @@ export default function ServiciosPage() {
                 </p>
                 <a
                   href={telHref(primaryLocation.phoneIntl)}
-                  className="focus-ring mt-5 inline-flex items-center gap-2 text-sm font-semibold text-copper-dark hover:underline"
+                  className="focus-ring mt-5 inline-flex items-center gap-2 text-sm font-semibold text-orange-dark hover:underline"
                 >
                   <PhoneIcon className="size-4" />
                   Consultar y reservar
@@ -55,15 +55,15 @@ export default function ServiciosPage() {
 
       <section className="section-pad bg-surface">
         <div className="container-x">
-          <div className="overflow-hidden rounded-[2rem] bg-ink px-8 py-14 text-center text-[#f7f3ee] sm:px-14">
+          <div className="overflow-hidden rounded-[2rem] bg-orange-dark px-8 py-14 text-center text-white sm:px-14">
             <h2 className="font-serif text-3xl font-semibold sm:text-4xl">
               ¿Tienes claro lo que quieres?
             </h2>
-            <p className="mx-auto mt-3 max-w-md text-[#d8d1c4]">
+            <p className="mx-auto mt-3 max-w-md text-white/80">
               Llama al salón que te quede más cerca y te dan cita.
             </p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
-              <a href={telHref(primaryLocation.phoneIntl)} className="btn btn-primary focus-ring">
+              <a href={telHref(primaryLocation.phoneIntl)} className="btn btn-white focus-ring">
                 <PhoneIcon className="size-4.5" />
                 Llamar: {primaryLocation.phoneDisplay}
               </a>

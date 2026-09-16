@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f3ee;
-  --surface: #efe8df;
-  --surface-strong: #e5dbcd;
-  --foreground: #211d1a;
-  --foreground-soft: #5c5650;
-  --ink: #16130f;
-  --copper: #a85d2e;
-  --copper-dark: #7f4520;
-  --copper-tint: #f1e0d0;
-  --line: #ddd2c2;
+  --background: #ffffff;
+  --surface: #fff4ec;
+  --surface-strong: #ffe3c9;
+  --foreground: #241a10;
+  --foreground-soft: #6b5c4e;
+  --ink: #241a10;
+  --orange: #e8611f;
+  --orange-dark: #b0440f;
+  --orange-tint: #fde3ce;
+  --line: #f2ddc4;
   --gold: #b08c4f;
 }
 
@@ -21,9 +21,9 @@
   --color-surface-strong: var(--surface-strong);
   --color-foreground-soft: var(--foreground-soft);
   --color-ink: var(--ink);
-  --color-copper: var(--copper);
-  --color-copper-dark: var(--copper-dark);
-  --color-copper-tint: var(--copper-tint);
+  --color-orange: var(--orange);
+  --color-orange-dark: var(--orange-dark);
+  --color-orange-tint: var(--orange-tint);
   --color-line: var(--line);
   --color-gold: var(--gold);
   --font-sans: var(--font-inter);
@@ -75,7 +75,7 @@ h4 {
     font-weight: 600;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--copper-dark);
+    color: var(--orange-dark);
   }
 
   .btn {
@@ -101,13 +101,13 @@ h4 {
   }
 
   .btn-primary {
-    background: var(--ink);
-    color: #f7f3ee;
-    box-shadow: 0 10px 24px -10px rgba(22, 19, 15, 0.55);
+    background: var(--orange-dark);
+    color: #ffffff;
+    box-shadow: 0 10px 24px -10px rgba(176, 68, 15, 0.55);
   }
 
   .btn-primary:hover {
-    background: var(--copper-dark);
+    background: #8f3609;
   }
 
   .btn-secondary {
@@ -117,29 +117,39 @@ h4 {
   }
 
   .btn-secondary:hover {
-    border-color: var(--copper);
-    color: var(--copper-dark);
+    border-color: var(--orange);
+    color: var(--orange-dark);
   }
 
   .btn-on-dark {
-    background: rgba(247, 243, 238, 0.1);
-    color: #f7f3ee;
-    border: 1.5px solid rgba(247, 243, 238, 0.35);
+    background: rgba(255, 255, 255, 0.14);
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.45);
     backdrop-filter: blur(6px);
   }
 
   .btn-on-dark:hover {
-    background: rgba(247, 243, 238, 0.18);
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .btn-white {
+    background: #ffffff;
+    color: var(--orange-dark);
+    box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.35);
+  }
+
+  .btn-white:hover {
+    background: var(--orange-tint);
   }
 
   .card {
-    background: #fffdfa;
+    background: #ffffff;
     border: 1px solid var(--line);
     border-radius: 1.25rem;
   }
 
   .focus-ring:focus-visible {
-    outline: 3px solid var(--copper);
+    outline: 3px solid var(--orange);
     outline-offset: 2px;
   }
 

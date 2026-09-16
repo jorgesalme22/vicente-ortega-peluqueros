@@ -17,7 +17,7 @@ function LocationCard({ location }: { location: Location }) {
         <div className="flex items-start justify-between gap-3">
           <h3 className="font-serif text-xl font-semibold">{location.label}</h3>
           {location.isPrimary && (
-            <span className="shrink-0 rounded-full bg-copper-tint px-2.5 py-1 text-xs font-semibold text-copper-dark">
+            <span className="shrink-0 rounded-full bg-orange-tint px-2.5 py-1 text-xs font-semibold text-orange-dark">
               Principal
             </span>
           )}
@@ -33,14 +33,14 @@ function LocationCard({ location }: { location: Location }) {
 
         <a
           href={telHref(location.phoneIntl)}
-          className="focus-ring mt-2 flex items-center gap-2 rounded-md text-sm font-medium text-ink hover:text-copper-dark"
+          className="focus-ring mt-2 flex items-center gap-2 rounded-md text-sm font-medium text-ink hover:text-orange-dark"
         >
           <PhoneIcon className="size-4 shrink-0" />
           {location.phoneDisplay}
         </a>
 
         <div className="mt-4 flex items-center gap-2 text-sm text-foreground-soft">
-          <StarIcon className="size-4 text-copper-dark" />
+          <StarIcon className="size-4 text-orange-dark" />
           {location.rating.value}/5 · {location.rating.count} opiniones en Google
         </div>
 

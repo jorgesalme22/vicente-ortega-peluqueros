@@ -9,7 +9,7 @@ export default function StickyMobileBar() {
           href={telHref(primaryLocation.phoneIntl)}
           className="focus-ring flex items-center justify-center gap-2 bg-background py-3.5 text-sm font-semibold text-ink"
         >
-          <PhoneIcon className="size-4.5 text-copper-dark" />
+          <PhoneIcon className="size-4.5 text-orange-dark" />
           Llamar
         </a>
         <a
@@ -18,7 +18,7 @@ export default function StickyMobileBar() {
           rel="noopener noreferrer"
           className="focus-ring flex items-center justify-center gap-2 bg-background py-3.5 text-sm font-semibold text-ink"
         >
-          <MapPinIcon className="size-4.5 text-copper-dark" />
+          <MapPinIcon className="size-4.5 text-orange-dark" />
           Cómo llegar
         </a>
       </div>

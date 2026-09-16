@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport = {
-  themeColor: "#f7f3ee",
+  themeColor: "#ffffff",
 };
 
 const jsonLd = locations.map((loc) => ({
@@ -101,7 +101,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <a
           href="#contenido"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-copper focus:text-white focus:px-4 focus:py-2 focus:rounded-full"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-orange focus:text-white focus:px-4 focus:py-2 focus:rounded-full"
         >
           Saltar al contenido
         </a>

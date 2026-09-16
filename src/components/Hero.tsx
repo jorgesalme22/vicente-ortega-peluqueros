@@ -35,7 +35,7 @@ export default function Hero() {
 
           <div className="reveal flex flex-col gap-4" style={{ animationDelay: "120ms" }}>
             <div className="flex items-center gap-4 rounded-2xl border border-line bg-white/60 px-5 py-4">
-              <div className="flex items-center gap-1 text-copper-dark">
+              <div className="flex items-center gap-1 text-orange-dark">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <StarIcon key={i} className="size-4" />
                 ))}
@@ -57,19 +57,19 @@ export default function Hero() {
 
       <div className="reveal mt-14" style={{ animationDelay: "200ms" }}>
         <div className="container-x">
-          <div className="relative overflow-hidden rounded-[1.75rem] border border-line bg-ink">
+          <div className="relative overflow-hidden rounded-[1.75rem] border border-line bg-orange-dark">
             <div
-              className="aspect-[16/7] w-full opacity-90"
+              className="aspect-[16/7] w-full opacity-95"
               style={{
                 backgroundImage:
-                  "radial-gradient(circle at 12% 20%, rgba(168,93,46,0.35), transparent 40%), radial-gradient(circle at 85% 75%, rgba(176,140,79,0.28), transparent 45%), repeating-linear-gradient(115deg, rgba(247,243,238,0.05) 0px, rgba(247,243,238,0.05) 1px, transparent 1px, transparent 34px)",
+                  "radial-gradient(circle at 12% 20%, rgba(255,255,255,0.18), transparent 40%), radial-gradient(circle at 85% 75%, rgba(255,255,255,0.14), transparent 45%), linear-gradient(115deg, var(--orange-dark) 0%, var(--orange) 100%), repeating-linear-gradient(115deg, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.06) 1px, transparent 1px, transparent 34px)",
               }}
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 px-6 text-center">
-              <p className="font-serif text-xl font-semibold text-[#f7f3ee] sm:text-2xl">
+              <p className="font-serif text-xl font-semibold text-white sm:text-2xl">
                 Espacio reservado para fotografía real del salón
               </p>
-              <p className="max-w-md text-sm text-[#c9c0b3]">
+              <p className="max-w-md text-sm text-white/80">
                 Este panel está listo para recibir fotografías del equipo, el
                 local y los trabajos en cuanto el negocio las facilite.
               </p>

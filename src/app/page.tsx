@@ -28,7 +28,7 @@ export default function Home() {
               </div>
               <Link
                 href="/servicios"
-                className="focus-ring shrink-0 text-sm font-semibold text-copper-dark hover:underline"
+                className="focus-ring shrink-0 text-sm font-semibold text-orange-dark hover:underline"
               >
                 Ver todos los servicios →
               </Link>
@@ -39,7 +39,7 @@ export default function Home() {
             {services.slice(0, 3).map((s, i) => (
               <Reveal key={s.slug} delay={i * 80}>
                 <div className="card h-full p-6">
-                  <span className="flex size-12 items-center justify-center rounded-xl bg-copper-tint text-copper-dark">
+                  <span className="flex size-12 items-center justify-center rounded-xl bg-orange-tint text-orange-dark">
                     <s.icon className="size-6" />
                   </span>
                   <h3 className="mt-4 text-lg font-semibold">{s.name}</h3>
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
               <Link
                 href="/el-salon"
-                className="focus-ring shrink-0 text-sm font-semibold text-copper-dark hover:underline"
+                className="focus-ring shrink-0 text-sm font-semibold text-orange-dark hover:underline"
               >
                 Conoce el salón →
               </Link>
@@ -129,7 +129,7 @@ export default function Home() {
           <div className="mt-6 text-center">
             <Link
               href="/opiniones"
-              className="focus-ring text-sm font-semibold text-copper-dark hover:underline"
+              className="focus-ring text-sm font-semibold text-orange-dark hover:underline"
             >
               Ver todas las opiniones →
             </Link>
@@ -150,7 +150,7 @@ export default function Home() {
               </div>
               <Link
                 href="/galeria"
-                className="focus-ring shrink-0 text-sm font-semibold text-copper-dark hover:underline"
+                className="focus-ring shrink-0 text-sm font-semibold text-orange-dark hover:underline"
               >
                 Ver galería completa →
               </Link>
@@ -183,16 +183,16 @@ export default function Home() {
       <section className="section-pad">
         <div className="container-x">
           <Reveal>
-            <div className="overflow-hidden rounded-[2rem] bg-ink px-8 py-14 text-center text-[#f7f3ee] sm:px-14">
+            <div className="overflow-hidden rounded-[2rem] bg-orange-dark px-8 py-14 text-center text-white sm:px-14">
               <h2 className="font-serif text-3xl font-semibold sm:text-4xl">
                 ¿Pedimos tu cita?
               </h2>
-              <p className="mx-auto mt-3 max-w-md text-[#d8d1c4]">
+              <p className="mx-auto mt-3 max-w-md text-white/80">
                 Llama al salón que te quede más cerca y te dan hora con la
                 mayor brevedad posible.
               </p>
               <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
-                <a href={telHref(primaryLocation.phoneIntl)} className="btn btn-primary focus-ring">
+                <a href={telHref(primaryLocation.phoneIntl)} className="btn btn-white focus-ring">
                   <PhoneIcon className="size-4.5" />
                   Llamar: {primaryLocation.phoneDisplay}
                 </a>

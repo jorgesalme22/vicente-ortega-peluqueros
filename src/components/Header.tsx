@@ -24,7 +24,7 @@ export default function Header() {
           className="focus-ring flex items-center gap-2.5 rounded-md"
           onClick={() => setOpen(false)}
         >
-          <ScissorsIcon className="size-6 text-copper-dark" />
+          <ScissorsIcon className="size-6 text-orange-dark" />
           <span className="font-serif text-lg font-semibold tracking-tight sm:text-xl">
             {business.name}
           </span>
